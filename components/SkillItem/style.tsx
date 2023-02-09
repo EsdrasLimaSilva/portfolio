@@ -36,7 +36,6 @@ const StyledSkillItem = styled.li`
       height: 60px;
       justify-content: center;
       width: 60px;
-      width: fit-content;
    }
 
    &:hover{
