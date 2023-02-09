@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledSkillsSection = styled.section`
    min-height: 150vh  ;
-   padding: 50px 0;
+   padding: 50px 0px;
    overflow: hidden;
    position: relative;
    display: flex;
@@ -25,7 +25,6 @@ const StyledSkillsSection = styled.section`
    }
 
    main{
-      padding-left: 50px;
       width: 100%;
    }
 
@@ -33,6 +32,7 @@ const StyledSkillsSection = styled.section`
       color: ${({ theme }) => theme.neutralLight};
       margin-bottom: 150px;
       font-size: 1.9rem;
+      padding-left: 20px;
    }
 `;
 

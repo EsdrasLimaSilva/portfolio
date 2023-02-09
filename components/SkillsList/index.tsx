@@ -10,6 +10,7 @@ import {
 } from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import StyledSkillList from "./style";
+import SkillItem from "../SkillItem";
 
 const SkillsList = () => {
    const skills = [
@@ -54,7 +55,7 @@ const SkillsList = () => {
       },
 
       {
-         title: "Redux",
+         title: "Figma",
          icon: <CgFigma />,
       },
    ];
@@ -62,7 +63,9 @@ const SkillsList = () => {
    return (
       <StyledSkillList>
          {skills.map((skill) => (
-            <li key={skill.title}>{skill.icon}</li>
+            <SkillItem key={skill.title} skillTitle={skill.title}>
+               {skill.icon}
+            </SkillItem>
          ))}
       </StyledSkillList>
    );

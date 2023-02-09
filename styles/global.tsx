@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
    }
 
    html{
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Inter, sans-serif;
       background-image: linear-gradient(45deg, ${({ theme }) => theme.gradient2},  ${({ theme }) =>
    theme.gradient1});
    }
