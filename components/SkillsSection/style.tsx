@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 const StyledSkillsSection = styled.section`
-   min-height: 150vh  ;
-   padding: 50px 0px;
-   overflow: hidden;
-   position: relative;
+   align-items: flex-start;
    display: flex;
    flex-direction: column;
-   align-items: flex-start;
    justify-content: center;
+   min-height: 100vh  ;
+   overflow: hidden;
+   position: relative;
 
 
    img#wave2, img#wave3{
@@ -30,9 +29,19 @@ const StyledSkillsSection = styled.section`
 
    h2{
       color: ${({ theme }) => theme.neutralLight};
-      margin-bottom: 150px;
       font-size: 1.9rem;
+      margin-bottom: 150px;
       padding-left: 20px;
+   }
+
+   @media (max-width: 480px){
+       img#wave2{
+      top: -5px;
+   }
+
+   img#wave3{
+      bottom: -5px;
+   }
    }
 `;
 

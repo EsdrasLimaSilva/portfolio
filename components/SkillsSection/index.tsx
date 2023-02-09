@@ -3,7 +3,7 @@ import StyledSkillsSection from "./style";
 
 const SkillsSection = () => {
    return (
-      <StyledSkillsSection>
+      <StyledSkillsSection id="skills-section">
          <img src="./wave2.svg" alt="illustration of a wave" id="wave2" />
 
          <main>

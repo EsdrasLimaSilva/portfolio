@@ -1,4 +1,5 @@
 import AboutMeSection from "@/components/AboutMeSection";
+import Footer from "@/components/Footer";
 import HomeSection from "@/components/HomeSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
@@ -16,6 +17,7 @@ const Home = () => {
             <SkillsSection />
             <ProjectsSection />
          </main>
+         <Footer />
       </>
    );
 };

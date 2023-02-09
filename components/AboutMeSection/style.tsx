@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const StyleAboutMeSection = styled.section`
+   align-items: flex-start;
    background: ${({ theme }) => theme.neutralLight};
-   padding: 100px 60px;
-   min-height: 100vh;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
    gap: 64px;
+   justify-content: center;
+   min-height: 100vh;
+   padding: 100px 60px;
 
    h2{
       color: ${({ theme }) => theme.primary};
@@ -16,19 +16,19 @@ const StyleAboutMeSection = styled.section`
    }
 
    div {
+     align-items: center;
      display: flex;
      flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
      gap: 24px;
+     justify-content: center;
+     width: 100%;
      
      p {
-      width: 100%;
-      max-width: 800px;
-      text-align: left;
       font-size: 1.2rem;
       line-height: 24px;
+      max-width: 800px;
+      text-align: left;
+      width: 100%;
      }
    }
 `;

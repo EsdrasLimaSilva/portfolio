@@ -2,7 +2,7 @@ import StyleAboutMeSection from "./style";
 
 const AboutMeSection = () => {
    return (
-      <StyleAboutMeSection>
+      <StyleAboutMeSection id="about-me-section">
          <h2>About Me</h2>
 
          <div>

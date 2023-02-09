@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const StyledProjectList = styled.div`
+   align-items: center;
    display   : flex ;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
    gap: 32px;
-   width: fit-content;
+   justify-content: center;
    margin: 0px auto;
+   width: fit-content;
 `;
 
 export default StyledProjectList;
