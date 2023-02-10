@@ -34,7 +34,6 @@ const StyledProjectItem = styled.div`
       background-color: transparent;
       border-radius: 100px;
       border: 2px solid ${({ theme }) => theme.neutralDark};
-      border: none;
       bottom: 10px;
       color: inherit;
       cursor: pointer;

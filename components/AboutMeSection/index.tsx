@@ -14,10 +14,10 @@ const AboutMeSection = () => {
             <p>
                I fell in love with the world of programming while doing control and automation
                engineering. I decided to leave the course to seek a central focus of studies, and
-               that&lquo;s when I found front-end development about a year and a half ago.
+               that&apos;s when I found front-end development about a year and a half ago.
             </p>
             <p>
-               Since then, I&lquo;ve been honing my skills in bringing beautiful and functional
+               Since then, I&apos;ve been honing my skills in bringing beautiful and functional
                interfaces to life.
             </p>
          </div>
