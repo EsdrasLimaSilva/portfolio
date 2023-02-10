@@ -11,7 +11,7 @@ const StyledSkillItem = styled.li`
       border-radius: 20px;
       border: 2px solid ${({ theme }) => theme.primary};
       color: ${({ theme }) => theme.primary};
-      display: flex;
+      display: none;
       font-size: 1rem;
       justify-content: center;
       left: 50%;
@@ -41,6 +41,7 @@ const StyledSkillItem = styled.li`
    &:hover{
 
       .description{
+         display: flex;
          opacity: 1;
          transform: translate(-50%, -150%);
       }
