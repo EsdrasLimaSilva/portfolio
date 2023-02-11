@@ -35,6 +35,8 @@ const StyledSkillsSection = styled.section`
    }
 
    @media (max-width: 480px){
+      padding: 200px 0;
+
        img#wave2{
       top: -5px;
    }

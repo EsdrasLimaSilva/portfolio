@@ -27,9 +27,14 @@ const StyleAboutMeSection = styled.section`
       font-size: 1.2rem;
       line-height: 24px;
       max-width: 800px;
+      width: 100%;
       text-align: left;
       width: 100%;
      }
+   }
+
+   @media (max-width: 480px) {
+      padding: 100px 16px;
    }
 `;
 
