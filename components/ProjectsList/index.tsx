@@ -1,12 +1,20 @@
 import theme from "@/styles/theme";
 import { BsMusicNote } from "react-icons/bs";
 import { IoLogoGameControllerA } from "react-icons/io";
+import { FaBloggerB } from "react-icons/fa";
 import { TiWorld } from "react-icons/ti";
 import ProjectItem from "../ProjectItem";
 import StyledProjectList from "./style";
 
 const ProjectsList = () => {
    const projects = [
+      {
+         title: "0AS",
+         description: "My personal blog about tecnology",
+         icon: <FaBloggerB />,
+         color: theme.projects.fourth,
+         projectUrl: "https://o-analista-de-sistemas.vercel.app/",
+      },
       {
          title: "Aquarium",
          description: "Share and listen to music",

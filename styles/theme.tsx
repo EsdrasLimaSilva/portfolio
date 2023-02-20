@@ -10,6 +10,7 @@ const theme = {
       first: "#FB9F62",
       second: "#6271FB",
       third: "#179743",
+      fourth: "#c71b32",
    },
 };
 
