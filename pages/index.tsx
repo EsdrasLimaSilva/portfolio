@@ -22,4 +22,10 @@ const Home = () => {
    );
 };
 
+export const getStaticProps = async () => {
+   return {
+      props: {},
+   };
+};
+
 export default Home;
