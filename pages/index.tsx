@@ -1,8 +1,8 @@
-import AboutMeSection from "@/components/AboutMeSection";
+import AboutMeSection from "@/containers/AboutMeSection";
 import Footer from "@/components/Footer";
-import HomeSection from "@/components/HomeSection";
-import ProjectsSection from "@/components/ProjectsSection";
-import SkillsSection from "@/components/SkillsSection";
+import HomeSection from "@/containers/HomeSection";
+import ProjectsSection from "@/containers/ProjectsSection";
+import SkillsSection from "@/containers/SkillsSection";
 import Head from "next/head";
 
 const Home = () => {

@@ -1,5 +1,4 @@
-import ProjectItem from "../ProjectItem";
-import ProjectsList from "../ProjectsList";
+import ProjectsList from "@/components/ProjectsList";
 import StyledProjectsSection from "./style";
 
 const ProjectsSection = () => {

@@ -1,10 +1,11 @@
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3, DiReact } from "react-icons/di";
+import { DiCss3, DiJava, DiMysql, DiReact } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import {
    SiJavascript,
    SiNextdotjs,
    SiRedux,
+   SiSpring,
    SiStyledcomponents,
    SiTypescript,
 } from "react-icons/si";
@@ -57,6 +58,21 @@ const SkillsList = () => {
       {
          title: "Figma",
          icon: <CgFigma />,
+      },
+
+      {
+         title: "Java",
+         icon: <DiJava />,
+      },
+
+      {
+         title: "Spring Framework",
+         icon: <SiSpring />,
+      },
+
+      {
+         title: "MySQL",
+         icon: <DiMysql />,
       },
    ];
 

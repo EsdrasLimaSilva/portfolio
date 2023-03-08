@@ -5,7 +5,7 @@ const StyledSkillsSection = styled.section`
    display: flex;
    flex-direction: column;
    justify-content: center;
-   min-height: 100vh  ;
+   min-height: 130vh  ;
    overflow: hidden;
    position: relative;
 
@@ -36,6 +36,7 @@ const StyledSkillsSection = styled.section`
 
    @media (max-width: 480px){
       padding: 200px 0;
+      min-height: 110vh;
 
        img#wave2{
       top: -5px;

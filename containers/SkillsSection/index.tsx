@@ -1,4 +1,4 @@
-import SkillsList from "../SkillsList";
+import SkillsList from "@/components/SkillsList";
 import StyledSkillsSection from "./style";
 
 const SkillsSection = () => {
