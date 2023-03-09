@@ -26,7 +26,7 @@ const HomeSection = () => {
          <div id="profile-info" ref={profileRef}>
             <h3>Hi, i&lsquo;m</h3>
             <h1>Esdras Silva</h1>
-            <h2>Full Stack developer</h2>
+            <h2>Frontend developer</h2>
          </div>
 
          <img src="./wave1.svg" alt="wave illustration" id="wave1" />
