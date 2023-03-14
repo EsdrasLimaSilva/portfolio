@@ -14,6 +14,7 @@ const ProjectsList = () => {
          icon: <FaBloggerB />,
          color: theme.projects.fourth,
          projectUrl: "https://o-analista-de-sistemas.vercel.app/",
+         repositoryUrl: "https://github.com/EsdrasLimaSilva/oas",
       },
       {
          title: "Aquarium",
@@ -21,6 +22,7 @@ const ProjectsList = () => {
          icon: <BsMusicNote />,
          color: theme.projects.first,
          projectUrl: "https://aquariumm.vercel.app/",
+         repositoryUrl: "https://github.com/EsdrasLimaSilva/aquarium",
       },
 
       {
@@ -29,6 +31,7 @@ const ProjectsList = () => {
          icon: <IoLogoGameControllerA />,
          color: theme.projects.second,
          projectUrl: "https://gaffyy.netlify.app/",
+         repositoryUrl: "https://github.com/EsdrasLimaSilva/gaffy",
       },
 
       {
@@ -37,6 +40,7 @@ const ProjectsList = () => {
          icon: <TiWorld />,
          color: theme.projects.third,
          projectUrl: "https://countinfo.vercel.app/",
+         repositoryUrl: "https://github.com/EsdrasLimaSilva/countinfo",
       },
    ];
 
@@ -50,6 +54,7 @@ const ProjectsList = () => {
                projectColor={project.color}
                projectIcon={project.icon}
                projectUrl={project.projectUrl}
+               repositoryUrl={project.repositoryUrl}
             />
          ))}
       </StyledProjectList>

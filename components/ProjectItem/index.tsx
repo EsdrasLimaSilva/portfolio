@@ -8,6 +8,7 @@ interface Props {
    projectIcon: ReactNode;
    projectColor: string;
    projectUrl: string;
+   repositoryUrl: string;
 }
 
 const ProjectItem = ({
@@ -16,14 +17,21 @@ const ProjectItem = ({
    projetctDescription,
    projectColor,
    projectUrl,
+   repositoryUrl,
 }: Props) => {
    return (
       <StyledProjectItem>
          <h3>{projetctTitle}</h3>
          <p>{projetctDescription}</p>
-         <a className="visit-button" href={projectUrl} target="_blank" rel="noreferrer">
-            visit
-         </a>
+
+         <div className="links">
+            <a href={projectUrl} target="_blank" rel="noreferrer">
+               site
+            </a>
+            <a href={repositoryUrl} target="_blank" rel="noreferrer">
+               repository
+            </a>
+         </div>
 
          <div className="icon" style={{ background: projectColor }}>
             {projectIcon}

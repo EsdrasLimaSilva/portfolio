@@ -19,7 +19,8 @@ const StyledProjectItem = styled.div`
    .icon{
       align-items: center;
       border-top-left-radius: 100px;
-      bottom: 0;
+      border-bottom-left-radius: 50px;
+      top: 0;
       color: ${({ theme }) => theme.neutralLight};
       display: flex;
       font-size: 2.3rem;
@@ -27,33 +28,36 @@ const StyledProjectItem = styled.div`
       justify-content: center;
       position: absolute;
       right: 0;
-      width: 100px;
+      width: 80px;
    }
 
-   .visit-button{
-      background-color: transparent;
-      border-radius: 100px;
-      border: 2px solid ${({ theme }) => theme.neutralDark};
-      bottom: 10px;
-      color: inherit;
-      cursor: pointer;
-      font-size: 1rem;
-      font-weight: bold;
-      left: 50%;
-      padding: 4px 12px;
+   div.links{
+      width: 100%;
       position: absolute;
-      text-align: center;
-      text-decoration: none;
-      transform: translateX(-50%);
-      transition: all 0.15s ease-out;
-      width: 90px;
+      bottom: 10px;
+      left: 18px;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
 
-      &:hover{
-         background: linear-gradient(45deg, ${({ theme }) => theme.gradient1}, ${({ theme }) =>
-   theme.gradient2});
-         color: ${({ theme }) => theme.neutralLight};
-         border-color: ${({ theme }) => theme.neutralLight};
-   
+      a{
+         font-size: 1.1rem;
+         font-weight: normal;
+         padding: 4px 18px;
+         border-radius: 100px;
+         transition: all 0.3s;
+
+
+         &:hover{
+            border-color: transparent;
+            background-image: linear-gradient(
+               45deg,
+               ${({ theme }) => theme.gradient1},
+               ${({ theme }) => theme.gradient2}
+            );
+
+            color: ${({ theme }) => theme.neutralLighter};
+         }
       }
    }
 `;
